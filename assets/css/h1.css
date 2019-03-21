@@ -1,0 +1,73 @@
+header {
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background: white;
+    z-index: 555;
+    box-shadow: 0px .5px 5px;
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+#brand {
+    text-decoration: none;
+    margin-left: 1%;
+    color: #494949;
+    font-size: 40px;
+}
+
+nav {
+    float: right;
+    right: 10px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    padding-top: 15px;
+    margin-right: 70px;
+    cursor: pointer;
+
+    position: relative;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #494949;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+nav li:hover a {
+    color: #111;
+    font-weight: bold;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    top: 0;
+    width: 0%;
+    background: #494949;
+    
+    position: absolute;
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+@media(max-width: 760px){
+    
+}

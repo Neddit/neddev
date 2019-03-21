@@ -1,0 +1,18 @@
+#cont {
+    text-align: center;
+    width: 40%;
+    height: auto;
+    color: #fff;
+    position: absolute;
+    margin-top: 100px;
+    background: #777;
+    border: 2px solid #444;
+    border-radius: .8rem; 
+    left: 30%;
+    font-size: 20px;
+    line-height: 25px;
+}
+#cont a {
+    line-height: 5px;
+    font-size: 17px;
+}
