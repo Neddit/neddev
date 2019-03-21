@@ -48,7 +48,6 @@ nav li a {
 }
 
 nav li:hover a {
-    color: #111;
     font-weight: bold;
 }
 
@@ -66,6 +65,10 @@ nav a::before {
 
 nav a:hover::before {
     width: 100%;
+}
+#selc::before {
+    width: 100%;
+    background: #1b1;
 }
 
 @media(max-width: 760px){
